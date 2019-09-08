@@ -15,7 +15,7 @@
 > Send client.py to the victim.
 
 ## Listen port 4444
-- ``` python server.py ``` **on 'IP:' write 0.0.0.0 and on 'PORT:' the port to listen ex: 4444**
+- ``` python server.py ``` **on 'IP:' write 0.0.0.0 and on 'PORT:' the port to listen ex, 4444**
 
 
 
