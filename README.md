@@ -7,3 +7,6 @@
 
 ### If python is installed, on console, write
 - ``` pip install pyinstaller ``` **or** ``` python -m pip install pyinstaller ``` **| Its install the pyinstaller**
+- ``` pyinstaller --onefile --windowed client.py ``` 
+
+
