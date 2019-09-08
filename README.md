@@ -9,4 +9,5 @@
 - ``` pip install pyinstaller ``` **or** ``` python -m pip install pyinstaller ``` **| Its install the pyinstaller**
 - ``` pyinstaller --onefile --windowed client.py ``` 
 > --onefile | **Generate a single file**
+> --windowed | ** Hide the console **
 
