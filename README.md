@@ -6,4 +6,4 @@
 ## Transforming py to exe
 
 ### If python is installed, on console, write
-``` pip install pyinstaller ``` or ``` python -m pip install pyinstaller ``` Its install the pyinstaller
+``` pip install pyinstaller ``` **or** ``` python -m pip install pyinstaller ``` **Its install the pyinstaller**
